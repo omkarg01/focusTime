@@ -17,6 +17,7 @@ const STATUS = {
   INCOMPLETE: 0,
 };
 const App = () => {
+  console.log("Hello");
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
